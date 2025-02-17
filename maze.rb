@@ -11,4 +11,5 @@ elsif direction == "S"
 elsif direction == "W"
  puts "You're here, wherever here is."
 else
- puts
+ puts "Wait, is that even a direction?"
+end
