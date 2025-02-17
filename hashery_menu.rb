@@ -4,7 +4,7 @@ hashery_menu = {
   jam: 1,
   sausage: 2,
   biscuits: (1..3),
-  random_special: [1,2,3]
+  random_special: (1..4).to_a
 }
 
 hashery_menu.keys.each do |item|
